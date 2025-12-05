@@ -76,10 +76,10 @@ const Index = () => {
                   <Icon name="Calendar" size={28} className="text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-2xl font-semibold mb-3">Живые практики</h3>
+                  <h3 className="font-serif text-2xl font-semibold mb-3">Живые эфиры</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    3 раза в неделю выходит практика со мной — живые занятия, 
-                    где вы наполняетесь энергией вместе с сообществом
+                    3 раза в неделю проходят эфиры — живые встречи, 
+                    где вы наполняетесь энергией вместе с сообществом в прямом эфире
                   </p>
                 </div>
               </div>
@@ -91,10 +91,10 @@ const Index = () => {
                   <Icon name="Video" size={28} className="text-secondary" />
                 </div>
                 <div>
-                  <h3 className="font-serif text-2xl font-semibold mb-3">Записи уроков</h3>
+                  <h3 className="font-serif text-2xl font-semibold mb-3">Библиотека практик</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    3 раза в неделю вы повторяете практику по записи или самостоятельно — 
-                    гибкий график под вашу жизнь
+                    Все записи эфиров сохраняются в библиотеке — занимайтесь в удобное время, 
+                    повторяйте любимые практики сколько угодно раз
                   </p>
                 </div>
               </div>
@@ -230,8 +230,8 @@ const Index = () => {
                 </h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                3 живые практики + 3 записи в неделю. Не успели на живую? 
-                Занимайтесь по записи в удобное время. Практика встраивается в вашу жизнь.
+                3 живых эфира в неделю. Не успели на эфир? 
+                Все записи сохраняются в библиотеке — занимайтесь в удобное время. Практика встраивается в вашу жизнь.
               </p>
             </Card>
             
@@ -310,21 +310,21 @@ const Index = () => {
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="bg-primary/10 p-2 rounded-full mt-1">
-                  <Icon name="Star" size={20} className="text-primary" />
+                  <Icon name="Radio" size={20} className="text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-1">Живые практики с ведущим</h4>
-                  <p className="text-muted-foreground">3 раза в неделю — онлайн-занятия в реальном времени</p>
+                  <h4 className="font-semibold text-lg mb-1">Живые эфиры</h4>
+                  <p className="text-muted-foreground">3 раза в неделю — встречи в прямом эфире с ведущим</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
                 <div className="bg-secondary/10 p-2 rounded-full mt-1">
-                  <Icon name="Play" size={20} className="text-secondary" />
+                  <Icon name="Library" size={20} className="text-secondary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-1">Практика по записи</h4>
-                  <p className="text-muted-foreground">3 раза в неделю — самостоятельно или по видеозаписям</p>
+                  <h4 className="font-semibold text-lg mb-1">Библиотека практик</h4>
+                  <p className="text-muted-foreground">Все записи эфиров доступны 24/7 — занимайтесь когда удобно</p>
                 </div>
               </div>
               
@@ -356,11 +356,11 @@ const Index = () => {
             <ul className="text-left space-y-3 mb-8">
               <li className="flex items-center gap-3">
                 <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>3 живые практики в неделю</span>
+                <span>3 живых эфира в неделю</span>
               </li>
               <li className="flex items-center gap-3">
                 <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>Доступ ко всем записям</span>
+                <span>Библиотека всех записей эфиров</span>
               </li>
               <li className="flex items-center gap-3">
                 <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
