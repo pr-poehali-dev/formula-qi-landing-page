@@ -330,11 +330,11 @@ const Index = () => {
               
               <div className="flex items-start gap-4">
                 <div className="bg-accent p-2 rounded-full mt-1">
-                  <Icon name="Moon" size={20} className="text-accent-foreground" />
+                  <Icon name="Clock" size={20} className="text-accent-foreground" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-1">Выходной день</h4>
-                  <p className="text-muted-foreground">1 день в неделю — для восстановления и интеграции</p>
+                  <h4 className="font-semibold text-lg mb-1">Гибкий график</h4>
+                  <p className="text-muted-foreground">Не успели на эфир? Смотрите запись в удобное время</p>
                 </div>
               </div>
             </div>
