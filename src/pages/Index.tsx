@@ -240,6 +240,21 @@ const Index = () => {
             <Card className="p-8 border-l-4 border-secondary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-secondary/5 to-transparent">
               <div className="flex items-start gap-4 mb-3">
                 <div className="bg-secondary/20 p-2 rounded-lg mt-1">
+                  <Icon name="CalendarClock" size={24} className="text-secondary" />
+                </div>
+                <h3 className="font-serif text-xl font-semibold text-secondary">
+                  Гибкий график для занятых
+                </h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                3 живых эфира в неделю. Не успели на эфир? 
+                Все записи сохраняются в библиотеке — занимайтесь в удобное время. Практика встраивается в вашу жизнь.
+              </p>
+            </Card>
+            
+            <Card className="p-8 border-l-4 border-secondary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-secondary/5 to-transparent">
+              <div className="flex items-start gap-4 mb-3">
+                <div className="bg-secondary/20 p-2 rounded-lg mt-1">
                   <Icon name="Sparkles" size={24} className="text-secondary" />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-secondary">
