@@ -346,8 +346,14 @@ const Index = () => {
           </h2>
           <Card className="p-12 border-2 border-primary shadow-2xl hover:shadow-primary/30 transition-all bg-gradient-to-b from-white to-accent/10">
             <div className="mb-6">
-              <div className="text-6xl font-bold text-primary mb-2">2 900 ₽</div>
-              <div className="text-xl text-muted-foreground">в месяц</div>
+              <div className="flex items-center justify-center gap-4 mb-2">
+                <div className="text-3xl font-bold text-muted-foreground line-through opacity-50">2 900 ₽</div>
+                <div className="text-6xl font-bold text-primary">2 026 ₽</div>
+              </div>
+              <div className="text-xl text-muted-foreground mb-2">в месяц</div>
+              <div className="inline-block px-4 py-2 bg-secondary/20 text-secondary font-semibold rounded-full text-sm">
+                🎉 Праздничная скидка сегодня!
+              </div>
             </div>
             <ul className="text-left space-y-3 mb-8">
               <li className="flex items-center gap-3">
