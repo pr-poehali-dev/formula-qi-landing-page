@@ -69,7 +69,7 @@ const Index = () => {
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
             Программа клуба
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="p-8 hover:shadow-2xl transition-all hover:-translate-y-2 border-0 bg-white/80 backdrop-blur">
               <div className="flex items-start gap-4">
                 <div className="bg-gradient-to-br from-primary/20 to-primary/5 p-4 rounded-2xl">
@@ -110,6 +110,21 @@ const Index = () => {
                   <p className="text-muted-foreground leading-relaxed">
                     Круг единомышленников, где поддерживают и делятся опытом — 
                     такая среда бесценна для мотивации
+                  </p>
+                </div>
+              </div>
+            </Card>
+            
+            <Card className="p-8 hover:shadow-2xl transition-all hover:-translate-y-2 border-0 bg-white/80 backdrop-blur">
+              <div className="flex items-start gap-4">
+                <div className="bg-gradient-to-br from-primary/20 to-secondary/10 p-4 rounded-2xl">
+                  <Icon name="Heart" size={28} className="text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-2xl font-semibold mb-3">Система Бадди</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    У каждого участника есть наставник — опытный практик, который поддержит 
+                    и поможет на вашем пути
                   </p>
                 </div>
               </div>
@@ -284,6 +299,10 @@ const Index = () => {
               <li className="flex items-center gap-3">
                 <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
                 <span>Доступ ко всем записям</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
+                <span>Личный наставник (система Бадди)</span>
               </li>
               <li className="flex items-center gap-3">
                 <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
