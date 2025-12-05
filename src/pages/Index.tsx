@@ -163,75 +163,77 @@ const Index = () => {
             <Card className="p-8 border-l-4 border-primary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-primary/5 to-transparent">
               <div className="flex items-start gap-4 mb-3">
                 <div className="bg-primary/20 p-2 rounded-lg mt-1">
-                  <Icon name="Users" size={24} className="text-primary" />
-                </div>
-                <h3 className="font-serif text-xl font-semibold text-primary">
-                  Сила сообщества без больших вложений
-                </h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Круг единомышленников, где вас поддержат в трудный момент и разделят радость успехов. 
-                Такая среда бесценна — а здесь она доступна каждому.
-              </p>
-            </Card>
-            
-            <Card className="p-8 border-l-4 border-secondary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-secondary/5 to-transparent">
-              <div className="flex items-start gap-4 mb-3">
-                <div className="bg-secondary/20 p-2 rounded-lg mt-1">
-                  <Icon name="TrendingUp" size={24} className="text-secondary" />
-                </div>
-                <h3 className="font-serif text-xl font-semibold text-secondary">
-                  Инвестиция, которая окупается
-                </h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Когда вы наполнены энергией — вы лучше работаете, больше успеваете и зарабатываете. 
-                Клуб — это не расход, а стартовый капитал для вашего рывка.
-              </p>
-            </Card>
-            
-            <Card className="p-8 border-l-4 border-primary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-primary/5 to-transparent">
-              <div className="flex items-start gap-4 mb-3">
-                <div className="bg-primary/20 p-2 rounded-lg mt-1">
-                  <Icon name="Target" size={24} className="text-primary" />
-                </div>
-                <h3 className="font-serif text-xl font-semibold text-primary">
-                  Система, а не хаос
-                </h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Ваше время слишком ценно для экспериментов. Выверенная методология «Формула Ци» 
-                дает прогнозируемый результат — энергию, ясность ума и молодость.
-              </p>
-            </Card>
-            
-            <Card className="p-8 border-l-4 border-secondary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-secondary/5 to-transparent">
-              <div className="flex items-start gap-4 mb-3">
-                <div className="bg-secondary/20 p-2 rounded-lg mt-1">
-                  <Icon name="Heart" size={24} className="text-secondary" />
-                </div>
-                <h3 className="font-serif text-xl font-semibold text-secondary">
-                  Личная поддержка наставника
-                </h3>
-              </div>
-              <p className="text-muted-foreground leading-relaxed">
-                Система Бадди — у вас есть опытный практик, который ответит на вопросы 
-                и не даст сойти с пути. Вы не одни.
-              </p>
-            </Card>
-            
-            <Card className="p-8 border-l-4 border-primary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-primary/5 to-transparent">
-              <div className="flex items-start gap-4 mb-3">
-                <div className="bg-primary/20 p-2 rounded-lg mt-1">
                   <Icon name="Clock" size={24} className="text-primary" />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-primary">
-                  Гибкий график для занятых
+                  Экономия времени
                 </h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                3 живых эфира в неделю. Не успели на эфир? 
-                Все записи сохраняются в библиотеке — занимайтесь в удобное время. Практика встраивается в вашу жизнь.
+                Вам не нужно скролить ленту и тратить время на хаотичные записи. 
+                Вы заходите в клуб на 20-25 мин в день и сразу занимаетесь практиками проверенными веками, 
+                с правильной техникой, поступательным углублением и моей личной поддержкой!
+              </p>
+            </Card>
+            
+            <Card className="p-8 border-l-4 border-secondary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-secondary/5 to-transparent">
+              <div className="flex items-start gap-4 mb-3">
+                <div className="bg-secondary/20 p-2 rounded-lg mt-1">
+                  <Icon name="DollarSign" size={24} className="text-secondary" />
+                </div>
+                <h3 className="font-serif text-xl font-semibold text-secondary">
+                  Финансовая доступность
+                </h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                За стоимость чашки кофе в день вы получаете не кофеиновую атаку, а мощнейший инструмент 
+                для вашего здоровья и душевной гармонии.
+              </p>
+            </Card>
+            
+            <Card className="p-8 border-l-4 border-primary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-primary/5 to-transparent">
+              <div className="flex items-start gap-4 mb-3">
+                <div className="bg-primary/20 p-2 rounded-lg mt-1">
+                  <Icon name="Heart" size={24} className="text-primary" />
+                </div>
+                <h3 className="font-serif text-xl font-semibold text-primary">
+                  Индивидуальный подход
+                </h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                Вы всегда можете рассчитывать на мою поддержку, задать уточняющий вопрос в чате, 
+                прислать видео для проверки техники 🙌
+              </p>
+            </Card>
+            
+            <Card className="p-8 border-l-4 border-secondary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-secondary/5 to-transparent">
+              <div className="flex items-start gap-4 mb-3">
+                <div className="bg-secondary/20 p-2 rounded-lg mt-1">
+                  <Icon name="Star" size={24} className="text-secondary" />
+                </div>
+                <h3 className="font-serif text-xl font-semibold text-secondary">
+                  Эксклюзивность
+                </h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                Это не просто «китайская зарядка из интернета». А древние практики и комплексы, 
+                передаваемые вам из вторых рук 🤜 от лучших мастеров Китая.
+              </p>
+            </Card>
+            
+            <Card className="p-8 border-l-4 border-primary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-primary/5 to-transparent">
+              <div className="flex items-start gap-4 mb-3">
+                <div className="bg-primary/20 p-2 rounded-lg mt-1">
+                  <Icon name="TrendingUp" size={24} className="text-primary" />
+                </div>
+                <h3 className="font-serif text-xl font-semibold text-primary">
+                  Инвестиция в себя
+                </h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                Участие в клубе – это 25 мин вашего времени и меньше 250 руб за одно занятие 😅 
+                Это все, что нужно, чтобы сделать шаг к лучшей версии себя! 
+                Быть здоровой, стройной, энергичной, красивой можно в любом возрасте – это база.
               </p>
             </Card>
             
@@ -241,12 +243,28 @@ const Index = () => {
                   <Icon name="Sparkles" size={24} className="text-secondary" />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-secondary">
-                  Результаты с первой недели
+                  Гарантия улучшения состояния
                 </h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                Вы почувствуете прилив сил уже после первых занятий. Не нужно ждать месяцами — 
-                изменения начинаются здесь и сейчас.
+                Постоянная практика повышает уровень энергии, улучшает настроение на постоянной основе, 
+                повышает либидо, укрепляет здоровье. Это закономерный результат, который не дадут 
+                5-минутные повторы за рилсами. Только регулярные занятия с поступательным углублением!
+              </p>
+            </Card>
+            
+            <Card className="p-8 border-l-4 border-primary hover:shadow-2xl transition-all hover:-translate-y-1 bg-gradient-to-r from-primary/5 to-transparent">
+              <div className="flex items-start gap-4 mb-3">
+                <div className="bg-primary/20 p-2 rounded-lg mt-1">
+                  <Icon name="Users" size={24} className="text-primary" />
+                </div>
+                <h3 className="font-serif text-xl font-semibold text-primary">
+                  Поддерживающее окружение
+                </h3>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                Когда ты знаешь, что в этот ранний час с тобой занимаются десятки таких же, как ты по всему миру – 
+                такую мотивацию переоценить невозможно! А еще это отличный шанс найти новых друзей и подруг.
               </p>
             </Card>
           </div>
