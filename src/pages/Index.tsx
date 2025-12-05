@@ -245,15 +245,16 @@ const Index = () => {
                 </p>
               </Card>
             </div>
-          
-          <div className="text-center mt-12">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-14 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105"
-              onClick={handleJoin}
-            >
-              Начать трансформацию
-            </Button>
+            
+            <div className="text-center mt-12">
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-14 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105"
+                onClick={handleJoin}
+              >
+                Начать трансформацию
+              </Button>
+            </div>
           </div>
         </div>
       </section>
