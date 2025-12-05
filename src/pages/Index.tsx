@@ -130,20 +130,7 @@ const Index = () => {
               </div>
             </Card>
             
-            <Card className="p-8 hover:shadow-2xl transition-all hover:-translate-y-2 border-0 bg-white/80 backdrop-blur">
-              <div className="flex items-start gap-4">
-                <div className="bg-gradient-to-br from-secondary/20 to-secondary/5 p-4 rounded-2xl">
-                  <Icon name="Coffee" size={28} className="text-secondary" />
-                </div>
-                <div>
-                  <h3 className="font-serif text-2xl font-semibold mb-3">Выходной день</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Один день для восстановления. Скоро добавим специальный день для «старичков» — 
-                    выпускников курсов
-                  </p>
-                </div>
-              </div>
-            </Card>
+
           </div>
         </div>
         </div>
