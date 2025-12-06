@@ -338,16 +338,24 @@ const Index = () => {
           <Card className="p-12 border-2 border-primary shadow-2xl hover:shadow-primary/30 transition-all bg-gradient-to-b from-white to-accent/10">
             <div className="mb-6">
               <div className="text-sm text-muted-foreground mb-2">Выберите удобный тариф:</div>
-              <div className="grid md:grid-cols-2 gap-4 mb-6">
+              <div className="grid md:grid-cols-3 gap-4 mb-6">
                 <div className="bg-white/50 p-6 rounded-2xl border border-primary/20">
                   <div className="text-lg text-muted-foreground mb-2">Разовая оплата</div>
                   <div className="text-4xl font-bold text-foreground mb-1">3 900 ₽</div>
                   <div className="text-sm text-muted-foreground">за 1 месяц</div>
                 </div>
                 <div className="bg-gradient-to-br from-primary/20 to-secondary/20 p-6 rounded-2xl border-2 border-primary">
-                  <div className="text-lg font-semibold text-secondary mb-2">💎 Подписка (выгоднее!)</div>
+                  <div className="text-lg font-semibold text-secondary mb-2">💎 Подписка</div>
                   <div className="text-4xl font-bold text-primary mb-1">2 900 ₽</div>
                   <div className="text-sm text-muted-foreground">в месяц</div>
+                </div>
+                <div className="bg-gradient-to-br from-accent via-secondary/30 to-primary/30 p-6 rounded-2xl border-2 border-secondary shadow-lg relative overflow-hidden">
+                  <div className="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">
+                    🎉 СЕГОДНЯ
+                  </div>
+                  <div className="text-lg font-bold text-secondary mb-2">Спецпредложение</div>
+                  <div className="text-4xl font-bold text-secondary mb-1">2 026 ₽</div>
+                  <div className="text-sm text-muted-foreground">при оплате за 2 месяца</div>
                 </div>
               </div>
             </div>
