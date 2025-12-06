@@ -359,28 +359,27 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <ul className="text-left space-y-3 mb-8">
-              <li className="flex items-center gap-3">
-                <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>3 живых эфира в неделю</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>Библиотека всех записей эфиров</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>Личный наставник (система Бадди)</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>Поддержка сообщества</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="Check" size={20} className="text-primary flex-shrink-0" />
-                <span>Выверенная методология</span>
-              </li>
-            </ul>
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold mb-4 text-foreground">В стоимость всех тарифов входит:</h3>
+              <ul className="text-left space-y-3">
+                <li className="flex items-start gap-3">
+                  <Icon name="Check" size={20} className="text-primary flex-shrink-0 mt-1" />
+                  <span><span className="font-semibold">Библиотека знаний</span> — записи всех предыдущих уроков</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="Check" size={20} className="text-primary flex-shrink-0 mt-1" />
+                  <span><span className="font-semibold">Карты комплексов</span> — схематическое изображение и описание упражнений</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="Check" size={20} className="text-primary flex-shrink-0 mt-1" />
+                  <span><span className="font-semibold">Чат клуба</span> — проверка техники с Еленой</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <Icon name="Check" size={20} className="text-primary flex-shrink-0 mt-1" />
+                  <span><span className="font-semibold">Все прямые эфиры и марафоны</span> в рамках клуба</span>
+                </li>
+              </ul>
+            </div>
             <Button 
               size="lg" 
               className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105"
