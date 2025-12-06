@@ -4,7 +4,7 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   const handleJoin = () => {
-    window.open('https://t.me/formulaci', '_blank');
+    window.open('https://olvonata.ru/formulaqi_payment', '_blank');
   };
 
   return (
@@ -30,16 +30,31 @@ const Index = () => {
               Закрытый клуб энергетических практик
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto mb-8"></div>
-            <p className="text-xl text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Ваш путь к энергии, ясности ума и молодости через выверенную систему практик
             </p>
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-16 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105 font-medium"
-              onClick={handleJoin}
-            >
-              Присоединиться к клубу
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-16 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105 font-medium"
+                onClick={handleJoin}
+              >
+                Присоединиться к клубу
+              </Button>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center text-left">
+              <div className="bg-white/80 backdrop-blur px-6 py-4 rounded-2xl shadow-lg">
+                <div className="text-sm text-muted-foreground mb-1">Разовая оплата</div>
+                <div className="text-3xl font-bold text-foreground">3 900 ₽</div>
+                <div className="text-sm text-muted-foreground">за 1 месяц</div>
+              </div>
+              <div className="bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur px-6 py-4 rounded-2xl shadow-xl border-2 border-primary/30">
+                <div className="text-sm text-secondary font-semibold mb-1">💎 Выгодная подписка</div>
+                <div className="text-3xl font-bold text-primary">2 900 ₽</div>
+                <div className="text-sm text-muted-foreground">в месяц при подписке</div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -336,13 +351,18 @@ const Index = () => {
           </h2>
           <Card className="p-12 border-2 border-primary shadow-2xl hover:shadow-primary/30 transition-all bg-gradient-to-b from-white to-accent/10">
             <div className="mb-6">
-              <div className="flex items-center justify-center gap-4 mb-2">
-                <div className="text-3xl font-bold text-muted-foreground line-through opacity-50">2 900 ₽</div>
-                <div className="text-6xl font-bold text-primary">2 026 ₽</div>
-              </div>
-              <div className="text-xl text-muted-foreground mb-2">в месяц</div>
-              <div className="inline-block px-4 py-2 bg-secondary/20 text-secondary font-semibold rounded-full text-sm">
-                🎉 Праздничная скидка сегодня!
+              <div className="text-sm text-muted-foreground mb-2">Выберите удобный тариф:</div>
+              <div className="grid md:grid-cols-2 gap-4 mb-6">
+                <div className="bg-white/50 p-6 rounded-2xl border border-primary/20">
+                  <div className="text-lg text-muted-foreground mb-2">Разовая оплата</div>
+                  <div className="text-4xl font-bold text-foreground mb-1">3 900 ₽</div>
+                  <div className="text-sm text-muted-foreground">за 1 месяц</div>
+                </div>
+                <div className="bg-gradient-to-br from-primary/20 to-secondary/20 p-6 rounded-2xl border-2 border-primary">
+                  <div className="text-lg font-semibold text-secondary mb-2">💎 Подписка (выгоднее!)</div>
+                  <div className="text-4xl font-bold text-primary mb-1">2 900 ₽</div>
+                  <div className="text-sm text-muted-foreground">в месяц</div>
+                </div>
               </div>
             </div>
             <ul className="text-left space-y-3 mb-8">
