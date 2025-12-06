@@ -336,41 +336,6 @@ const Index = () => {
             Стоимость подписки
           </h2>
           <Card className="p-12 border-2 border-primary shadow-2xl hover:shadow-primary/30 transition-all bg-gradient-to-b from-white to-accent/10">
-            <div className="mb-6">
-              <div className="text-sm text-muted-foreground mb-2">Выберите удобный тариф:</div>
-              <div className="grid md:grid-cols-3 gap-4 mb-6">
-                <div className="bg-white/50 p-6 rounded-2xl border border-primary/20">
-                  <div className="text-lg text-muted-foreground mb-2">Подписка в месяц</div>
-                  <div className="text-4xl font-bold text-foreground mb-1">3 300 ₽</div>
-                  <div className="text-sm text-muted-foreground">325 ₽ — 1 занятие</div>
-                </div>
-                <div className="bg-gradient-to-br from-accent via-secondary/30 to-primary/30 p-6 rounded-2xl border-2 border-secondary shadow-lg relative overflow-hidden">
-                  <div className="absolute top-2 right-2 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">
-                    🎉 СЕГОДНЯ
-                  </div>
-                  <div className="text-lg font-bold text-secondary mb-2">Первые 2 месяца</div>
-                  <div className="text-4xl font-bold text-secondary mb-1">2 026 ₽</div>
-                  <div className="text-sm text-muted-foreground mb-1">далее 3 300 ₽</div>
-                  <div className="text-sm text-muted-foreground">
-                    <span className="line-through opacity-60">275 ₽</span> <span className="font-semibold text-secondary">168 ₽</span> — 1 занятие
-                  </div>
-                </div>
-                <div className="bg-gradient-to-br from-primary/20 to-secondary/20 p-6 rounded-2xl border-2 border-primary">
-                  <div className="text-lg font-semibold text-primary mb-2">💎 Годовая подписка</div>
-                  <div className="mb-2">
-                    <span className="text-2xl line-through opacity-60 text-muted-foreground">2 900 ₽</span>
-                    <span className="text-4xl font-bold text-primary ml-2">2 026 ₽</span>
-                    <span className="text-lg text-muted-foreground">/месяц</span>
-                  </div>
-                  <div className="text-sm text-muted-foreground mb-2">
-                    <span className="line-through opacity-60">34 800 ₽</span> <span className="font-bold text-primary">24 312 ₽</span>
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    <span className="line-through opacity-60">242 ₽</span> <span className="font-semibold text-primary">168 ₽</span> — 1 занятие
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4 text-foreground">В стоимость всех тарифов входит:</h3>
               <ul className="text-left space-y-3">
