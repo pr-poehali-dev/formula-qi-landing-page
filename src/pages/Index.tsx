@@ -30,30 +30,16 @@ const Index = () => {
               Закрытый клуб энергетических практик
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto mb-8"></div>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
               Ваш путь к энергии, ясности ума и молодости через выверенную систему практик
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-16 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105 font-medium"
-                onClick={handleJoin}
-              >
-                Присоединиться к клубу
-              </Button>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center text-left">
-              <div className="bg-white/80 backdrop-blur px-6 py-4 rounded-2xl shadow-lg">
-                <div className="text-sm text-muted-foreground mb-1">Разовая оплата</div>
-                <div className="text-3xl font-bold text-foreground">3 900 ₽</div>
-                <div className="text-sm text-muted-foreground">за 1 месяц</div>
-              </div>
-              <div className="bg-gradient-to-br from-primary/10 to-secondary/10 backdrop-blur px-6 py-4 rounded-2xl shadow-xl border-2 border-primary/30">
-                <div className="text-sm text-secondary font-semibold mb-1">💎 Выгодная подписка</div>
-                <div className="text-3xl font-bold text-primary">2 900 ₽</div>
-                <div className="text-sm text-muted-foreground">в месяц при подписке</div>
-              </div>
-            </div>
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-16 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105 font-medium"
+              onClick={handleJoin}
+            >
+              Присоединиться к клубу
+            </Button>
 
           </div>
         </div>
