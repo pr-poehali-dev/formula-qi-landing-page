@@ -318,6 +318,19 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Philosophy Section */}
+      <section className="container mx-auto px-4 py-20 bg-gradient-to-b from-accent/10 to-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <div className="relative inline-block mb-8">
+            <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
+            <div className="text-6xl relative z-10 filter drop-shadow-lg">☯️</div>
+          </div>
+          <p className="text-2xl md:text-3xl text-foreground leading-relaxed font-light">
+            В основе нашей <span className="font-serif font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Формулы Ци</span> лежит принцип даосской алхимии — глубокого преобразования внутренней энергии
+          </p>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="container mx-auto px-4 py-20 bg-gradient-to-b from-accent/20 to-white">
         <div className="max-w-2xl mx-auto text-center">
@@ -357,20 +370,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Philosophy Section */}
-      <section className="container mx-auto px-4 py-20 bg-gradient-to-b from-accent/10 to-white">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="relative inline-block mb-8">
-            <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
-            <div className="text-6xl relative z-10 filter drop-shadow-lg">☯️</div>
-          </div>
-          <p className="text-2xl md:text-3xl text-foreground leading-relaxed font-light">
-            В основе нашей <span className="font-serif font-semibold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Формулы Ци</span> лежит принцип даосской алхимии — глубокого преобразования внутренней энергии
-          </p>
-        </div>
-      </section>
-
-      {/* Contacts Section */}
+      {/* Contacts Section */
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-8 text-foreground">
