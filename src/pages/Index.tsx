@@ -45,8 +45,6 @@ const Index = () => {
         </div>
       </section>
 
-
-
       {/* Program Section */}
       <section className="relative py-24">
         <div className="absolute inset-0 bg-gradient-to-b from-accent/20 to-transparent"></div>
@@ -116,7 +114,6 @@ const Index = () => {
               </div>
             </Card>
             
-
           </div>
         </div>
         </div>
@@ -219,7 +216,6 @@ const Index = () => {
                 </p>
               </Card>
               
-
             </div>
             
             <div className="text-center mt-12">
@@ -370,7 +366,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contacts Section */
+      {/* Contacts Section */}
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-8 text-foreground">
