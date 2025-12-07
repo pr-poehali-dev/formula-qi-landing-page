@@ -45,22 +45,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section */}
-      <section className="container mx-auto px-4 py-20 animate-slide-up">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-8 text-foreground">
-            Что такое клуб Формула Ци
-          </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            Это не просто набор упражнений — это система, которая дает прогнозируемый результат. 
-            Мы создали пространство, где единомышленники поддерживают друг друга на пути к энергии и балансу.
-          </p>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            В клубе вас ждет выверенная методология «Формула Ци», которая экономит ваше время 
-            и дает реальные результаты — больше энергии, ясность ума и ощущение молодости.
-          </p>
-        </div>
-      </section>
+
 
       {/* Program Section */}
       <section className="relative py-24">
