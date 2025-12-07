@@ -29,13 +29,7 @@ const Index = () => {
             <p className="text-2xl md:text-3xl text-foreground/70 mb-6 font-light tracking-wide">
               Утренний клуб энергетических практик
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto mb-8"></div>
-            <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-              <span className="font-bold">Ваше время слишком ценно</span>, чтобы тратить его на скроллинг ленты или попытки договориться с собой.
-            </p>
-            <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-              Здесь — <span className="font-bold">выверенные веками практики</span>, которые дают вам то, что вы ищите — притягательную энергию, ясность мышления и здоровое подтянутое тело
-            </p>
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto mb-12"></div>
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-16 py-7 text-xl rounded-full shadow-2xl hover:shadow-primary/50 transition-all hover:scale-105 font-medium"
@@ -130,9 +124,18 @@ const Index = () => {
             <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4 text-center text-foreground">
               Почему именно клуб?
             </h2>
-            <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
+            <p className="text-xl text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
               А не видео в YouTube или занятия под рилсы?
             </p>
+            
+            <div className="max-w-3xl mx-auto mb-16">
+              <p className="text-xl text-center text-muted-foreground leading-relaxed mb-6">
+                <span className="font-bold">Ваше время слишком ценно</span>, чтобы тратить его на скроллинг ленты или попытки договориться с собой.
+              </p>
+              <p className="text-xl text-center text-muted-foreground leading-relaxed">
+                Здесь — <span className="font-bold">выверенные веками практики</span>, которые дают вам то, что вы ищите — притягательную энергию, ясность мышления и здоровое подтянутое тело
+              </p>
+            </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <Card className="p-6 text-center hover:shadow-2xl transition-all hover:-translate-y-2 border-0 bg-white/90 backdrop-blur">
