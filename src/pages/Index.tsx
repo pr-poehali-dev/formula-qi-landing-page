@@ -31,7 +31,10 @@ const Index = () => {
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto mb-8"></div>
             <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-              Ваш путь к энергии, ясности ума и молодости через выверенную систему практик
+              <span className="font-bold">Ваше время слишком ценно</span>, чтобы тратить его на скроллинг ленты или попытки договориться с собой.
+            </p>
+            <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+              Здесь — <span className="font-bold">выверенные веками практики</span>, которые дают вам то, что вы ищите — притягательную энергию, ясность мышления и здоровое подтянутое тело
             </p>
             <Button 
               size="lg" 
