@@ -27,7 +27,7 @@ const Index = () => {
               Формула Ци
             </h1>
             <p className="text-2xl md:text-3xl text-foreground/70 mb-6 font-light tracking-wide">
-              Закрытый клуб энергетических практик
+              Утренний клуб энергетических практик
             </p>
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto mb-8"></div>
             <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
