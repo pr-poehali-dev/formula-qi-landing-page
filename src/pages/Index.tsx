@@ -129,10 +129,10 @@ const Index = () => {
             </p>
             
             <div className="max-w-3xl mx-auto mb-16">
-              <p className="text-xl text-center text-muted-foreground leading-relaxed mb-6">
+              <p className="text-lg text-center text-muted-foreground leading-relaxed mb-4">
                 <span className="font-bold">Ваше время слишком ценно</span>, чтобы тратить его на скроллинг ленты или попытки договориться с собой.
               </p>
-              <p className="text-xl text-center text-muted-foreground leading-relaxed">
+              <p className="text-lg text-center text-muted-foreground leading-relaxed">
                 Здесь — <span className="font-bold">выверенные веками практики</span>, которые дают вам то, что вы ищите — притягательную энергию, ясность мышления и здоровое подтянутое тело
               </p>
             </div>
