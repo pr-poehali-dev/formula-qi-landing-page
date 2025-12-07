@@ -235,36 +235,40 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Levels Section */}
+      {/* Objections Section */}
       <section className="relative py-24">
         <div className="absolute inset-0 bg-gradient-to-b from-muted/30 via-accent/10 to-transparent"></div>
         <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
-            Уровни участников
+            Сомневаетесь?
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="p-10 text-center hover:scale-105 transition-all hover:shadow-2xl border-0 bg-white/80 backdrop-blur">
-              <div className="text-6xl mb-6 filter drop-shadow-lg">🐦</div>
-              <h3 className="font-serif text-2xl font-semibold mb-4">Жаворонки</h3>
-              <p className="text-muted-foreground">
-                Новенькие в клубе, начинающие свой путь к энергии и балансу
+          <div className="space-y-6">
+            <Card className="p-8 hover:shadow-2xl transition-all border-0 bg-white/80 backdrop-blur">
+              <h3 className="font-serif text-2xl font-semibold mb-4 text-primary">«Некогда»</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Понимаю! Поэтому в клубе эфиры всего по 15-20 минут. Это меньше, чем вы тратите на утренний кофе. Но эти минуты перезагрузки сэкономят вам часы за счёт энергии и концентрации в течение дня. Это не трата времени — это его инвестиция.
               </p>
             </Card>
             
-            <Card className="p-10 text-center hover:scale-105 transition-all hover:shadow-2xl border-2 border-primary bg-gradient-to-b from-primary/5 to-white/80 backdrop-blur shadow-lg shadow-primary/20">
-              <div className="text-6xl mb-6 filter drop-shadow-lg">🦅</div>
-              <h3 className="font-serif text-2xl font-semibold mb-4">Соколы</h3>
-              <p className="text-muted-foreground">
-                Выпускники курсов, которые продолжают практику и совершенствуются
+            <Card className="p-8 hover:shadow-2xl transition-all border-0 bg-white/80 backdrop-blur">
+              <h3 className="font-serif text-2xl font-semibold mb-4 text-secondary">«Дорого»</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Задайте себе вопрос: сколько вы готовы платить за то, чтобы просыпаться с энергией, а не с усталостью? Это дешевле, чем два сеанса массажа в месяц, но эффект — каждый день. Вы покупаете не курс, а источник сил. И это лучшая инвестиция в себя.
               </p>
             </Card>
             
-            <Card className="p-10 text-center hover:scale-105 transition-all hover:shadow-2xl border-0 bg-white/80 backdrop-blur">
-              <div className="text-6xl mb-6 filter drop-shadow-lg">🐦‍🔥</div>
-              <h3 className="font-serif text-2xl font-semibold mb-4">Фениксы</h3>
-              <p className="text-muted-foreground">
-                Участники ретритов, прошедшие трансформацию и возродившиеся заново
+            <Card className="p-8 hover:shadow-2xl transition-all border-0 bg-white/80 backdrop-blur">
+              <h3 className="font-serif text-2xl font-semibold mb-4 text-primary">«Всё равно не буду заниматься»</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Именно для этого у нас в клубе есть «Мой Бадди» — ваш напарник, который будет вас мягко поддерживать. Вы не одни. Когда есть круг своих, заниматься в 10 раз легче. Попробуйте одну неделю с поддержкой — и вы почувствуете разницу.
+              </p>
+            </Card>
+            
+            <Card className="p-8 hover:shadow-2xl transition-all border-0 bg-white/80 backdrop-blur">
+              <h3 className="font-serif text-2xl font-semibold mb-4 text-secondary">«Сейчас не время»</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Самое лучшее время — когда есть запрос. Через месяц ваша усталость не исчезнет, просто вы к ней привыкнете. А могли бы за этот месяц уже ощутить прилив сил. Давайте начнём с понедельника — пока желание свежо. Завтра ваш будущий я скажет вам спасибо.
               </p>
             </Card>
           </div>
